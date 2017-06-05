@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.UI;
 
 namespace UnityStandardAssets.Characters.FirstPerson
 {
@@ -124,6 +125,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_RigidBody = GetComponent<Rigidbody>();
             m_Capsule = GetComponent<CapsuleCollider>();
             mouseLook.Init (transform, cam.transform);
+            pelletText.text = "Pellets Collected: " + pelletsCollected;
+            remainingText.text = "Remaining Pellets: " + pelletsRem;
+            scoreText.text = "Score: " + score;
+
         }
 
 
@@ -135,6 +140,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 m_Jump = true;
             }
+
+            pelletText.text = "Pellets Collected: " + pelletsCollected;
+            remainingText.text = "Remaining Pellets: " + pelletsRem;
+            scoreText.text = "Score: " + score;
         }
 
 
@@ -266,15 +275,21 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private int score = 0;
         private int pelletsCollected = 0;
         private int pelletsRem = 176;
+        public Text pelletText;
+        public Text remainingText;
+        public Text scoreText;
+        public AudioClip clip;
 
         private void OnTriggerEnter(Collider other)
         {
+            
             if (other.gameObject.CompareTag("Pick Up"))
             {
                 other.gameObject.SetActive(false);
                 score += 10;
                 pelletsCollected++;
                 pelletsRem--;
+                AudioSource.PlayClipAtPoint(clip, transform.position);
             }
         }
     }
