@@ -275,10 +275,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private int score = 0;
         private int pelletsCollected = 0;
         private int pelletsRem = 176;
+
         public Text pelletText;
         public Text remainingText;
         public Text scoreText;
+
         public AudioClip clip;
+
+        private Vector3 teleport1 = new Vector3(-28f, .5f, -3f);
+        private Vector3 teleport2 = new Vector3(28f, .5f, -3f);
 
         private void OnTriggerEnter(Collider other)
         {
@@ -290,6 +295,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 pelletsCollected++;
                 pelletsRem--;
                 AudioSource.PlayClipAtPoint(clip, transform.position);
+            }
+
+            if (other.gameObject.CompareTag("Teleport1"))
+            {
+                transform.position = teleport2;
+            }
+            if (other.gameObject.CompareTag("Teleport2"))
+            {
+                transform.position = teleport1;
             }
         }
     }
