@@ -71,7 +71,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 48
+  controlID: 93
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,20 +297,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Materials/Materials
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Materials/Materials
+  - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Antonio\Desktop\Folders\School\Computer Science\Game
     Design Intro\First Person PacMan\4230 Game
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 44}
-    m_SelectedIDs: 3c260000
-    m_LastClickedID: 9788
-    m_ExpandedIDs: 000000000a250000e0250000262600003c260000162700001c27000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 4a250000
+    m_LastClickedID: 9546
+    m_ExpandedIDs: 000000000e250000ec2500004c260000282700002e27000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -338,7 +338,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000a250000e0250000262600003c260000162700001c270000
+    m_ExpandedIDs: 000000000e250000ec2500004c26000028270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -365,8 +365,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: 
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: 32270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -454,28 +454,28 @@ MonoBehaviour:
     height: 264
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 04290000
-    m_LastClickedID: 10500
-    m_ExpandedIDs: e4fbffff00000000
+    m_SelectedIDs: c6b90000
+    m_LastClickedID: 47558
+    m_ExpandedIDs: 32a6ffff4cc2ffff06c3ffff14c4ffff6ac4ffffc0cbffff6cccffff7ecdffffd6cdffff40d7ffff54f2ffffe4fbffff00000000ca2b0000402c00004e870000d6b90000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Controls Canvas
+      m_OriginalName: Controls Canvas
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 47574
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
   m_ExpandedScenes:
-  - Game
+  - Menu
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -506,14 +506,14 @@ MonoBehaviour:
     width: 812
     height: 614
   m_SceneLighting: 1
-  lastFramingTime: 568.1311434046617
-  m_2DMode: 0
+  lastFramingTime: 1455.5377603504026
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 406, y: 298.5, z: 0}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 406, y: 298.5, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -536,18 +536,18 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.35045695, y: -0.1411187, z: 0.053504203, w: 0.9243391}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: -0.35045695, y: 0.1411187, z: -0.053504203, w: -0.9243391}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 79.88506
+    m_Target: 716.9717
     speed: 2
-    m_Value: 79.88506
+    m_Value: 716.9717
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: 1
+  m_LastSceneViewRotation: {x: 0.0372656, y: -0.9472669, z: 0.29490384, w: 0.11970164}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 

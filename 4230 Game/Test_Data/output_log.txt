@@ -1,0 +1,54 @@
+Initialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     1136 MB
+    Driver:   20.19.15.4549
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Antonio\Desktop\Folders\School\Computer Science\Game Design Intro\First Person PacMan\4230 Game\Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Antonio\Desktop\Folders\School\Computer Science\Game Design Intro\First Person PacMan\4230 Game\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Antonio\Desktop\Folders\School\Computer Science\Game Design Intro\First Person PacMan\4230 Game\Test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Antonio\Desktop\Folders\School\Computer Science\Game Design Intro\First Person PacMan\4230 Game\Test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Antonio\Desktop\Folders\School\Computer Science\Game Design Intro\First Person PacMan\4230 Game\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Antonio\Desktop\Folders\School\Computer Science\Game Design Intro\First Person PacMan\4230 Game\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Antonio\Desktop\Folders\School\Computer Science\Game Design Intro\First Person PacMan\4230 Game\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Antonio\Desktop\Folders\School\Computer Science\Game Design Intro\First Person PacMan\4230 Game\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Antonio\Desktop\Folders\School\Computer Science\Game Design Intro\First Person PacMan\4230 Game\Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Antonio\Desktop\Folders\School\Computer Science\Game Design Intro\First Person PacMan\4230 Game\Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  1.360 seconds
+Platform assembly: C:\Users\Antonio\Desktop\Folders\School\Computer Science\Game Design Intro\First Person PacMan\4230 Game\Test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Antonio\Desktop\Folders\School\Computer Science\Game Design Intro\First Person PacMan\4230 Game\Test_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.698213 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 33bc -> priority: 1 
+  Thread -> id: 16f8 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.051448 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1639.
+Total: 0.665857 ms (FindLiveObjects: 0.136421 ms CreateObjectMapping: 0.047041 ms MarkObjects: 0.446470 ms  DeleteObjects: 0.035067 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.560364 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 428.
+Total: 5.603550 ms (FindLiveObjects: 0.042337 ms CreateObjectMapping: 0.029080 ms MarkObjects: 0.270277 ms  DeleteObjects: 5.261427 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.996006 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1639.
+Total: 1.220096 ms (FindLiveObjects: 0.219814 ms CreateObjectMapping: 0.090234 ms MarkObjects: 0.856590 ms  DeleteObjects: 0.051318 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.457872 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 428.
+Total: 5.590720 ms (FindLiveObjects: 0.023520 ms CreateObjectMapping: 0.020527 ms MarkObjects: 0.231788 ms  DeleteObjects: 5.314456 ms)
+

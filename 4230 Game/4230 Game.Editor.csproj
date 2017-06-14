@@ -118,6 +118,10 @@
       <Project>{7DC66CD0-2E15-CCFF-FB97-8B2C68AD2541}</Project>
       <Name>4230 Game.Plugins</Name>
     </ProjectReference>
+    <ProjectReference Include="4230 Game.csproj">
+      <Project>{92D99BD1-070C-F856-0973-BC655B912B3C}</Project>
+      <Name>4230 Game</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Prefabs\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
