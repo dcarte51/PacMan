@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 7}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -71,7 +71,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 111
+  controlID: 104
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,8 +139,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 619
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -324,19 +324,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\dalto\Documents\GitHub\PacMan\4230 Game
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 1}
-    m_SelectedIDs: 082d0000
-    m_LastClickedID: 11528
-    m_ExpandedIDs: 0000000018270000ea27000030280000442800001a2900002029000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 17}
+    m_SelectedIDs: 14250000
+    m_LastClickedID: 9492
+    m_ExpandedIDs: 0000000014250000ec2500003226000048260000242700002a27000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -364,7 +364,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000018270000ea27000030280000442800001a29000020290000
+    m_ExpandedIDs: 0000000014250000ec2500003226000048260000242700002a270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -391,22 +391,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: BlinkyPathing
-      m_OriginalName: BlinkyPathing
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 11532
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 2}
     m_CreateAssetUtility:
@@ -480,9 +480,9 @@ MonoBehaviour:
     height: 257
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: da2b0000
-    m_LastClickedID: 11226
-    m_ExpandedIDs: b2faffff000000005c2b0000da2b0000022c0000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: dcfbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -532,14 +532,14 @@ MonoBehaviour:
     width: 802
     height: 598
   m_SceneLighting: 1
-  lastFramingTime: 910.23638217887
+  lastFramingTime: 2272.9243831753815
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.2799997, y: 1.95, z: -4.06}
+    m_Target: {x: 1.1000001, y: 1.95, z: -10.969999}
     speed: 2
-    m_Value: {x: -3.2799997, y: 1.95, z: -4.06}
+    m_Value: {x: 1.1000001, y: 1.95, z: -10.969999}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -562,13 +562,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    m_Target: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: -0.7071068, y: 0, z: -0, w: -0.7071068}
+    m_Value: {x: -0, y: -0.70710677, z: 0, w: -0.70710677}
   m_Size:
-    m_Target: 19.678616
+    m_Target: 78.91588
     speed: 2
-    m_Value: 19.678616
+    m_Value: 78.91588
   m_Ortho:
     m_Target: 0
     speed: 2
