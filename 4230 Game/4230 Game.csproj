@@ -91,6 +91,7 @@
   </ItemGroup>
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\BlinkyPathing.cs" />
     <Compile Include="Assets\Scripts\ClydePathing.cs" />
     <Compile Include="Assets\Scripts\GhostTeleport.cs" />
@@ -98,6 +99,9 @@
 >>>>>>> parent of 7a951ca... Menu/Pause Screen 2
     <Compile Include="Assets\Scripts\MenuScript.cs" />
     <Compile Include="Assets\Scripts\PelletMovement.cs" />
+=======
+    <Compile Include="Assets\Scripts\Triggers.cs" />
+>>>>>>> parent of e46fa64... Menu/Pause Screen
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
