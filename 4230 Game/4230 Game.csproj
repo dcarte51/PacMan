@@ -93,6 +93,7 @@
     <Compile Include="Assets\Scripts\BlinkyPathing.cs" />
     <Compile Include="Assets\Scripts\ClydePathing.cs" />
     <Compile Include="Assets\Scripts\GhostTeleport.cs" />
+    <Compile Include="Assets\Scripts\MenuScript.cs" />
     <Compile Include="Assets\Scripts\PelletMovement.cs" />
   </ItemGroup>
   <ItemGroup>

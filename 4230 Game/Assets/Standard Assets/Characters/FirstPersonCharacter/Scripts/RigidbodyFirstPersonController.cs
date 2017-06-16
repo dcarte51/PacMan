@@ -1,5 +1,7 @@
 using System;
 using UnityEngine;
+using System.Collections;
+using UnityEngine.SceneManagement;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityEngine.UI;
 
@@ -141,6 +143,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 m_Jump = true;
             }
 
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                Time.timeScale = 0;
+                PauseCanvas.enabled = true;
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+            }
+
             pelletText.text = "Pellets Collected: " + pelletsCollected;
             remainingText.text = "Remaining Pellets: " + pelletsRem;
             scoreText.text = "Score: " + score;
@@ -280,10 +290,20 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public Text remainingText;
         public Text scoreText;
 
+        public Canvas PauseCanvas;
+
         public AudioClip clip;
 
         private Vector3 teleport1 = new Vector3(-28f, .5f, -3f);
         private Vector3 teleport2 = new Vector3(28f, .5f, -3f);
+
+        void Awake()
+        {
+            PauseCanvas.enabled = false;
+            Cursor.visible = false;
+            Time.timeScale = 1;
+            Cursor.lockState = CursorLockMode.Locked;
+        }
 
         private void OnTriggerEnter(Collider other)
         {
@@ -305,6 +325,17 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 transform.position = teleport1;
             }
+        }
+
+        public void ReturnToMenu()
+        {
+            SceneManager.LoadScene("Menu");
+        }
+
+        public void ReturnToGame()
+        {
+            PauseCanvas.enabled = false;
+            Time.timeScale = 1;
         }
     }
 }
